@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "okx_news_scraper"
+version = "0.1.0"
+description = "A script for downloading and processing OKX announcements within specified dates"
+readme = "README.md"
+authors = [
+    {name = "Dmitry_Helios", email = "dmitry.gaidai@gmail.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "configparser>=6.0.0",
+]
+
+[project.scripts]
+okx-news-download = "okx_news_scraper.downloader:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
