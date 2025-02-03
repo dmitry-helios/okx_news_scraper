@@ -4,11 +4,6 @@
 
 A Python script for downloading and processing OKX announcements. This tool allows you to fetch announcements from the OKX API within a specified date range and save both the announcement metadata and their full content.
 
-
-### NB:
->__See TEST-ASSIGNMENT.md for details regarding this project as part of the "Head of Analytics test task" challenge.__
-
-
 ## Features
 
 - Fetch announcements from OKX API within a specified date range
