@@ -1,5 +1,3 @@
-## For detailed remarks on this project as part of test assignment, please refer to TEST-ASSIGNMENT.md
-
 # OKX News Scraper
 
 A Python script for downloading and processing OKX announcements. This tool allows you to fetch announcements from the OKX API within a specified date range and save both the announcement metadata and their full content.
